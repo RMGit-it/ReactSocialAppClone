@@ -10,10 +10,15 @@ function App() {
       <div class="splash">
         <NavBar />
         <hr />
-        <Profile />
-        <Bio />
-        
-        <Feed />
+        <div id="belowNav">
+          <div id="profileBio">
+            <Profile />
+            <Bio />
+          </div>
+          <td id="column">
+          <Feed />
+          </td>
+        </div>
       </div>
     </React.Fragment>
 

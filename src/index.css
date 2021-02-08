@@ -14,8 +14,8 @@ code {
 
 
 .splash {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #nav-navbar {
@@ -34,38 +34,56 @@ code {
   padding: 5px 20px;
 }
 
+#belowNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#profileBio {
+  
+}
+
 .profile {
   border: solid black 1px;
   background-color: rgb(46, 137, 241);
-  width: 3in;
 }
 
-.nav-profile {
+/* .nav-profile {
   display: flex;
   text-decoration: none;
-  width: 3in;
-}
+  width: 100%;
+} */
 
 .top-profile {
   height: 100px;
-  width: 3in;
 }
+
+
 
 .bottom-profile {
   height: 100px;
   background-color: white;
-  width: 3in;
 }
 
 .bio {
   height: 3in;
-  width: 3in;
   border: solid black 1px;
 }
 
-.post {
-  height: auto;
-  width: 3in;
+.feed {
+  /* height: auto; */
   border: solid black 1px;
-  
+}
+
+/* .column {
+  vertical-align: text-top;
+  float: left;
+  padding-left: 20px;
+} */
+
+
+.image-icon {
+  height: 1cm;
+  width: 1cm;
 }
