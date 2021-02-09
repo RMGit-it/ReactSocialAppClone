@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import Profile from "./Profile";
 import Bio from "./Bio";
 import Feed from "./Feed";
+import FriendReqList from "./FriendReqList";
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
             <Profile />
             <Bio />
           </div>
-          <td id="column">
+          {/* <td id="column"> */}
           <Feed />
-          </td>
+          <FriendReqList />
+          {/* </td> */}
         </div>
       </div>
     </React.Fragment>

@@ -37,16 +37,22 @@ code {
 #belowNav {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-around;
+  align-items: flex-start;
+
 }
 
 #profileBio {
-  
+  order: 1;
+  flex: 40%;
+  margin: 5pt;
 }
 
 .profile {
   border: solid black 1px;
   background-color: rgb(46, 137, 241);
+  padding: 5pt;
 }
 
 /* .nav-profile {
@@ -67,13 +73,31 @@ code {
 }
 
 .bio {
-  height: 3in;
   border: solid black 1px;
+  padding: 5pt;
 }
 
 .feed {
-  /* height: auto; */
+  
+  order: 2;
+  flex: 40%;
+  margin: 5pt;
   border: solid black 1px;
+  padding: 5pt;
+  
+}
+
+.friend-req {
+  order: 3;
+  flex: 20%;
+  margin: 5pt;
+  border: solid black 1px;
+  padding: 5pt;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start; */
 }
 
 /* .column {
@@ -86,4 +110,15 @@ code {
 .image-icon {
   height: 1cm;
   width: 1cm;
+  float: left;
+}
+
+.firend-icon {
+  height: 1cm;
+  width: 1cm;
+  float: left;
+}
+
+#search {
+  width: 50%;
 }
